@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <link
-      rel="shortcut icon"
-      href="./images/fav-icon.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -14,78 +11,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet" />
 
     <!-- TailWind css-->
     <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: "#00856F",
-              "green-light": "#DCE9E2",
-              "green-light-02": "#F7F9F9",
-              "brand-beige": "#FFFAF1",
-              "brand-green-hover": "#00453A",
-              secondary: "#495057",
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#00856F",
+                        "green-light": "#DCE9E2",
+                        "green-light-02": "#F7F9F9",
+                        "brand-beige": "#FFFAF1",
+                        "brand-green-hover": "#00453A",
+                        secondary: "#495057",
+                    },
+                    fontFamily: {
+                        primary: ["DM Sans", "sans-serif"],
+                    },
+                },
             },
-            fontFamily: {
-              primary: ["DM Sans", "sans-serif"],
-            },
-          },
-        },
-      };
+        };
     </script>
     <!-- remix icon -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <style>
-      html {
-        scroll-behavior: smooth;
-      }
+        html {
+            scroll-behavior: smooth;
+        }
 
-      .active {
-        font-weight: bold;
-      }
+        .active {
+            font-weight: bold;
+        }
     </style>
     <title>Doctor Care | HTML, CSS, & JS Project</title>
-  </head>
+</head>
 
-  <body class="bg-green-light-02 overflow-x-hidden">
+<body class="bg-green-light-02 overflow-x-hidden">
     <!-- header section -->
     <header>
-      <nav  class="container max-w-screen-xl mx-auto flex justify-between items-center p-4"
-      >
-        <!-- Logo -->
-        <div class="text-x1 font-bold">
-          <a href="/" class="text-black"
-            >Doctor<span class="text-primary">Care</span></a>
-        </div>
-          <!-- menu item -->
-          <ul class="hidden md:flex space-x-8">
-            <li>
-              <a href="#home" class="hover:text-primary">Inicio</a>
-            </li>
-            <li>
-              <a href="#services" class="hover:text-primary">Inicio</a>
-            </li>
-            <li>
-              <a href="#about" class="hover:text-primary">Inicio</a>
-            </li>
-            <li>
-              <a href="#home" class="hover:text-primary">Inicio</a>
-            </li>
-          </ul>
-     
+        <nav class="container max-w-screen-xl mx-auto flex justify-between items-center p-4">
+            <!-- Logo -->
+            <div class="text-x1 font-bold">
+                <a href="/" class="text-black">Doctor<span class="text-primary">Care</span></a>
+            </div>
+            <!-- menu item -->
+            <ul class="hidden md:flex space-x-8">
+                <li>
+                    <a href="#home" class="hover:text-primary">Inicio</a>
+                </li>
+                <li>
+                    <a href="#services" class="hover:text-primary">Inicio</a>
+                </li>
+                <li>
+                    <a href="#about" class="hover:text-primary">Inicio</a>
+                </li>
+                <li>
+                    <a href="#home" class="hover:text-primary">Inicio</a>
+                </li>
+            </ul>
 
-        <div>
-          <a href="#contact">Agendar consults</a>
-        </div>
-      </nav>
+
+            <div>
+                <a href="#contact">Agendar consults</a>
+            </div>
+        </nav>
     </header>
-  </body>
+</body>
+
 </html>
